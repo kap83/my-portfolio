@@ -1,12 +1,12 @@
-
 // eslint-disable-next-line
 import React, { useState } from 'react';
+import useLocalStorage from 'use-local-storage';
 import ToggleDarkMode from './Components/ToggleDarkMode';
 import './index.css';
 import './App.css';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useLocalStorage("darkMode", false)
 
   const handleToggleChange = () => {
     setDarkMode(!darkMode)

@@ -1,8 +1,8 @@
+import React from 'react'
 import './Toggle.css'
 
 export default function ToggleDarkMode({darkMode, handleToggleChange}) {
  
-
   return (
     <div className='toggle-container'>
     <input

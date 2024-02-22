@@ -26,12 +26,12 @@
     transition: background-color 250ms ease-in-out;
 }
 
-/* for the circle inside the toggle */
+
 .toggle + label::after {
     content: "🌙";
     font-size: 1em;
     margin-left: 1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
     transform: translateX(0%);
     position: absolute;
     left: 0.2em;
