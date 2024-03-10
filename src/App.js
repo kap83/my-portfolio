@@ -4,6 +4,10 @@ import useLocalStorage from 'use-local-storage';
 import ToggleDarkMode from './Components/ToggleDarkMode';
 import './index.css';
 import './App.css';
+import JSCSSHTML from './logos/JSCSSHTML.png'
+import ReactLogo from './logos/ReactLogo.png'
+
+
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false)
@@ -19,10 +23,20 @@ function App() {
         handleToggleChange={handleToggleChange}
 
       />
-     <h1 className='title'>Hello World!</h1>
-     <div className='box'>
-        <h2>This is a box</h2>
-     </div>
+     <h1 className='myName'>Karen Polanco</h1>
+     <h2 className='profession'>Software Engineer</h2>
+     <p className='description'>Analytical, organized, with an eye on latest technologies. 
+        Ready to design and maintain intuitive, user-friendly websites.
+     </p>
+     <img src={ReactLogo} alt='react logo' 
+       width={100}
+       height={100}/>
+     <img src={JSCSSHTML} alt='js css html logo' 
+      width={250}
+      height={250}
+     />
+
+    
     </div>
   );
 }

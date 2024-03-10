@@ -9,14 +9,21 @@
     transition: background-color 250ms ease-in-out;
 }
 
-.title {
+.myName {
     color: var(--primary-text-color);
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.profession {
+    color: var(--primary-text-color);
+    line-height: 0;
     margin-bottom: 50px;
 }
 
-.box {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--foreground-color);
-    color: var(--secondary-text-color)
+.description {
+    color: var(--primary-text-color);
+    margin-top: 15px;
+    line-height: 0;
 }

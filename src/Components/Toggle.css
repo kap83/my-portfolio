@@ -26,7 +26,6 @@
     transition: background-color 250ms ease-in-out;
 }
 
-
 .toggle + label::after {
     content: "🌙";
     font-size: 1em;
