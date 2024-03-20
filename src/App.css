@@ -27,3 +27,10 @@
     margin-top: 15px;
     line-height: 0;
 }
+
+.imgWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%
+}

@@ -28,13 +28,15 @@ function App() {
      <p className='description'>Analytical, organized, with an eye on latest technologies. 
         Ready to design and maintain intuitive, user-friendly websites.
      </p>
-     <img src={ReactLogo} alt='react logo' 
-       width={100}
-       height={100}/>
-     <img src={JSCSSHTML} alt='js css html logo' 
-      width={250}
-      height={250}
-     />
+    <div className='imgWrapper'>
+      <img src={ReactLogo} alt='react logo'
+      width={100}
+      height={100}/>
+      <img src={JSCSSHTML} alt='js css html logo' 
+      width={200}
+      height={100}
+      />
+    </div>
 
     
     </div>
