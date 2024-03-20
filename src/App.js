@@ -6,8 +6,7 @@ import './index.css';
 import './App.css';
 import JSCSSHTML from './logos/JSCSSHTML.png'
 import ReactLogo from './logos/ReactLogo.png'
-
-
+import RubyOnRailsLogo from './logos/RubyOnRailsLogo.png'
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false)
@@ -33,6 +32,10 @@ function App() {
       width={100}
       height={100}/>
       <img src={JSCSSHTML} alt='js css html logo' 
+      width={200}
+      height={100}
+      />
+       <img src={RubyOnRailsLogo} alt='ruby on rails logo' 
       width={200}
       height={100}
       />
